@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: black;
+}
+
+.section1 {
+    width: 100%;
+    height: 550px;
+    background-image: url(images/side-a.webp);
+    background-size: 1500px;
+    background-position: bottom;
+    background-attachment: scroll;
+    /* display: none; */
+
+
+}
+
+#logo {
+    position: relative;
+    top: 280px;
+    left: 460px;
+
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar {
+    background-color: rgb(64, 65, 66);
+    border-radius: 30px;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 15px 30px;
+
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container3 {
+    width: 100%;
+    height: 1500px;
+    position: relative;
+    background-image: url(images/starsback.gif);
+    background-attachment: fixed;
+    /* display: none; */
+
+}
+
+#section2 {
+    background-color: rgb(35, 47, 59);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+audio {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    width: calc(100% - 20px);
+}
+
+
+
+
+#button1 {
+    position: fixed;
+    bottom: 331;
+    right: 580;
+    width: 50;
+    height: 26;
+    border-radius: 6px;
+    z-index: 10;
+}
+
+#canvas {
+    background: rgb(0, 0, 0);
+    position: fixed;
+    width: 750px;
+    height: 450px;
+    top: 120px;
+    right: 430px;
+    /* filter: blur(1px) contrast(2); */
+}
+
+#audio1 {
+
+    width: 50%;
+    height: 45%;
+    margin-left: 24%;
+
+
+
+}
+
+#Fileupload {
+    position: fixed;
+    top: 600px;
+    left: 290;
+    color: beige;
+    z-index: 100;
+
+}
+
+#container2 {
+    position: relative;
+    width: 100vw;
+    height: 100vw;
+    background: rgb(10, 143, 196);
+}
+
+
+
+
+
+#goback {
+    width: 110px;
+    position: relative;
+    top: 10px;
+}
+
+
+
+.leaf {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 150px;
+    right: 900px;
+    opacity: 0.5;
+}
+
+.leaf img {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+
+.leaf p {
+    position: absolute;
+    left: 40%;
+    bottom: 5px;
+    font-size: xx-large;
+}
+
+.leaf:hover {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgb(196, 191, 191), 0 8px 10px 0 rgb(196, 191, 191);
+    text-decoration-color: solid grey;
+    font-family: cursive;
+    display: block;
+    opacity: 5;
+}
+
+.light {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 150px;
+    right: 300px;
+    opacity: 0.5;
+}
+
+.light img {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+
+.light p {
+    position: absolute;
+    left: 40%;
+    bottom: 5px;
+    font-size: xx-large;
+}
+
+.light:hover {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgb(196, 191, 191), 0 8px 10px 0 rgb(196, 191, 191);
+    text-decoration-color: solid grey;
+    font-family: cursive;
+    display: block;
+    opacity: 5;
+}
+
+
+
+.einsteinIn {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 700px;
+    right: 900px;
+    opacity: 0.5;
+}
+
+
+.einsteinIn img {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+
+
+}
+
+.einsteinIn p {
+    position: absolute;
+    left: 35%;
+    bottom: 5px;
+    font-size: xx-large;
+
+
+
+}
+
+.einsteinIn:hover {
+
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgb(196, 191, 191), 0 8px 10px 0 rgb(196, 191, 191);
+    text-decoration-color: solid grey;
+    font-family: cursive;
+    display: block;
+    opacity: 5;
+}
+
+.text {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 700px;
+    right: 300px;
+
+
+
+    opacity: 0.5;
+}
+
+.text img {
+
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+
+.text p {
+    position: absolute;
+    left: 40%;
+    bottom: 5px;
+    font-size: xx-large;
+}
+
+.text:hover {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px 0 rgb(196, 191, 191), 0 8px 10px 0 rgb(196, 191, 191);
+    text-decoration-color: solid grey;
+    font-family: cursive;
+    display: block;
+    opacity: 5;
+}
+
+.intro p {
+    text-align: center;
+    font-size: xx-large;
+    padding: 30px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.intro {
+    position: absolute;
+    width: 100%;
+    bottom: 100px;
+    background-color: rgb(237, 240, 243);
+    opacity: 0.5;
+
+}
+
+.contactus {
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    bottom: 60px;
+    opacity: 0.6;
+}
+
+.contactus img {
+    width: 100%;
+    height: 100%;
+}
